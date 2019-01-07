@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DATP Platform - Beta version 0.8.8 (ropsten)</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <style>
+  body {
+    /* background: linear-gradient(to right, #282828 , #353535 , #404040) !important; */
+  }
+  .preloader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #282828;
+      position: fixed;
+      z-index: 5000;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+</style>
+<link rel="stylesheet" href="styles.320b624339414b4c0f58.css"></head>
+<!-- <body></body> -->
+<body>
+  <app-root oncontextmenu="return false"></app-root>
+  <div oncontextmenu="return false" id="preloader" class="preloader fadeOut">
+
+		<center>
+			<img src="/assets/datp-icon.png" style="width: 30vw; height: auto"><br>
+			<div class="progress blue lighten-3">
+				<div class="indeterminate blue"></div>
+			</div>
+		</center>
+	
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"></script>
+  <script>
+    window.onload = function(){ 
+      setTimeout(function(){
+        $('.preloader').delay(1700).fadeOut('slow');
+      }, 7000);
+    }
+    setInterval(function(){
+      debugger;
+    },1000);
+  </script>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.f769d3dd0ac22fc8bfc7.js"></script><script type="text/javascript" src="scripts.dfe17c794d5054cc4112.js"></script><script type="text/javascript" src="main.097e8b25f56da375a0c3.js"></script></body>
+</html>
